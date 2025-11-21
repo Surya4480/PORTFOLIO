@@ -5,33 +5,33 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "Netfix",
+    year: "Mar2023",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
+    image:"https://akm-img-a-in.tosshub.com/indiatoday/images/story/202012/Netflix-New-Feature-Audio-Only_1200x768.jpeg?size=690:388",
     link: "#",
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "Tic Tac Toe",
+    year: "Sept2023",
     align: "left",
-    image: "../../public/images/website-img-2.webp",
+    image: "https://play-lh.googleusercontent.com/zPxLgj5nvl20ahJV7aFC6S5mD8kii5CEEDj25j1P9CYAfXL9sdDuO-8eES0r4DhJHrU=w480-h960-rw",
     link: "#",
   },
   {
-    name: "Tourzania",
+    name: "Amazon",
     year: "Jan2023",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: "https://www.shutterstock.com/image-illustration/seattle-usa-april-5-2023-600nw-2286327737.jpg",
     link: "#",
   },
-  {
-    name: "Bank of Luck",
-    year: "May2024",
-    align: "left",
-    image: "../../public/images/website-img-4.jpg",
-    link: "#",
-  },
+  // {
+  //   name: "coming soon",
+  //   year: "#",
+  //   align: "left",
+  //   image: "#",
+  //   link: "#",
+  // },
 ];
 
 const ProjectsMain = () => {
@@ -45,21 +45,21 @@ const ProjectsMain = () => {
       >
         <ProjectsText />
       </motion.div>
-        <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
-          {projects.map((project, index) => {
-            return (
-              <SingleProject
-                key={index}
-                name={project.name}
-                year={project.year}
-                align={project.align}
-                image={project.image}
-              />
-            );
-          })}
-        </div>
+      <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
+        {projects.map((project, index) => {
+          return (
+            <SingleProject
+              key={index}
+              name={project.name}
+              year={project.year}
+              align={project.align}
+              image={project.image}
+            />
+          );
+        })}
       </div>
-    );
-  };
+    </div>
+  );
+};
 
-  export default ProjectsMain;
+export default ProjectsMain;

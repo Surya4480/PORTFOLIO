@@ -14,9 +14,9 @@ const SubSkills = () => {
         <h2 className="text-6xl text-cyan mb-10">Additional Skills</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
-            { category: "Frontend", skills: ["Next.js", "Vue.js", "Sass", "Bootstrap"] },
-            { category: "Backend", skills: ["Python", "Django", "PostgreSQL", "Redis"] },
-            { category: "Tools", skills: ["Docker", "AWS", "Figma", "VS Code"] },
+            { category: "Frontend", skills: [ "Html","React", "Tailwind Css", "Famer Motion"] },
+            { category: "Backend", skills: ["coming soon", "coming soon", "coming soon", "coming soon"] },
+            { category: "Tools", skills: ["Git", "GitHub", "Vercel", "VS Code"] },
           ].map((item, index) => (
             <motion.div
               key={index}
