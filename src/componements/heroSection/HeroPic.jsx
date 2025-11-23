@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
+import cvImage from "/images/cv.png";
 
 const HeroPic = () => {
   return (
@@ -12,7 +13,7 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center  "
     >
       <img
-        src="../../../public/images/cv.png"
+        src={cvImage}
         alt="surya img"
         className="max-h-[455px] w-auto"
       />
