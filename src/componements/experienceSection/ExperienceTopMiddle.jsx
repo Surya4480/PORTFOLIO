@@ -1,4 +1,4 @@
-import experienceImage from "../../public/images/experience-image.png";
+import experienceImage from "../../../public/images/experience-image.png";
 
 const ExperienceTopMiddle = () => {
   return (

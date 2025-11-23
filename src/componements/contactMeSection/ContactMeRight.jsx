@@ -1,6 +1,6 @@
 import ContactInfo from "./ContactInfo";
 import ContactSocial from "./ContactSocial";
-import emailImage from "../../public/images/email-image.png";
+import emailImage from "../../../public/images/email-image.png";
 
 const ContactMeRight = () => {
   return (
