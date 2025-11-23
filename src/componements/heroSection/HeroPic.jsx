@@ -13,7 +13,7 @@ const HeroPic = () => {
     >
       <img
         src="../../../public/images/cv-img.png"
-        alt="Abdelrahman Qassem"
+        alt="surya img"
         className="max-h-[455px] w-auto"
       />
 
