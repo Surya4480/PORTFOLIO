@@ -9,7 +9,7 @@ const HeroPic = () => {
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0 }}
-      className=" h-full flex items-center justify-center "
+      className=" h-full flex items-center justify-center  "
     >
       <img
         src="../../../public/images/cv-img.png"
