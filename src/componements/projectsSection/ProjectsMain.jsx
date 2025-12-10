@@ -16,7 +16,7 @@ const projects = [
     year: "Sept2023",
     align: "left",
     image: "https://play-lh.googleusercontent.com/zPxLgj5nvl20ahJV7aFC6S5mD8kii5CEEDj25j1P9CYAfXL9sdDuO-8eES0r4DhJHrU=w480-h960-rw",
-    link: "#",
+    link: "https://tic-tac-toe-gamma-sepia.vercel.app/",
   },
   {
     name: "Amazon",
