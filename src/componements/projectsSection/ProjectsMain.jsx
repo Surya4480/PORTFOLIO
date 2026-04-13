@@ -4,26 +4,28 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
-  {
-    name: "Netfix",
-    year: "Mar2023",
-    align: "right",
-    image:"https://akm-img-a-in.tosshub.com/indiatoday/images/story/202012/Netflix-New-Feature-Audio-Only_1200x768.jpeg?size=690:388",
-    link: "#",
-  },
+  // {
+  //   name: "Netfix",
+  //   year: "Mar2023",
+  //   align: "right",
+  //   image:"https://akm-img-a-in.tosshub.com/indiatoday/images/story/202012/Netflix-New-Feature-Audio-Only_1200x768.jpeg?size=690:388",
+  //   link: "#",
+  // },
   {
     name: "Tic Tac Toe",
     year: "Sept2023",
     align: "left",
-    image: "https://play-lh.googleusercontent.com/zPxLgj5nvl20ahJV7aFC6S5mD8kii5CEEDj25j1P9CYAfXL9sdDuO-8eES0r4DhJHrU=w480-h960-rw",
+    image:
+      "https://play-lh.googleusercontent.com/zPxLgj5nvl20ahJV7aFC6S5mD8kii5CEEDj25j1P9CYAfXL9sdDuO-8eES0r4DhJHrU=w480-h960-rw",
     link: "https://tic-tac-toe-gamma-sepia.vercel.app/",
   },
   {
-    name: "Amazon",
+    name: "Calculator",
     year: "Jan2023",
     align: "right",
-    image: "https://www.shutterstock.com/image-illustration/seattle-usa-april-5-2023-600nw-2286327737.jpg",
-    link: "#",
+    image:
+      "https://media.istockphoto.com/id/943723378/photo/close-up-button-calculator-selective-focus.jpg?s=612x612&w=0&k=20&c=KlVD-Qj_IWzhqu9L9tMBbNBMdazoP8IOUxNsm_s9DEM=",
+    link: "calculator-woad-seven-94.vercel.app",
   },
   // {
   //   name: "coming soon",
