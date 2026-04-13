@@ -25,7 +25,7 @@ const projects = [
     align: "right",
     image:
       "https://media.istockphoto.com/id/943723378/photo/close-up-button-calculator-selective-focus.jpg?s=612x612&w=0&k=20&c=KlVD-Qj_IWzhqu9L9tMBbNBMdazoP8IOUxNsm_s9DEM=",
-    link: "calculator-woad-seven-94.vercel.app",
+    link: "https://calculator-woad-seven-94.vercel.app/",
   },
   // {
   //   name: "coming soon",
